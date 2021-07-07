@@ -1,2 +1,2 @@
 # Python-Matrix-homework
-Plus, minus, multiply, inverse, determinant
+plus, minus, multiply, inverse, determinant
