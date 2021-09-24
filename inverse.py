@@ -32,6 +32,8 @@ if n == 2:
             (array[1][1] / det), 4), round((array[0][0] / det), 4)
         array[0][1] = round((array[0][1] / (-1*det)), 4)
         array[1][0] = round((array[1][0] / (-1*det)), 4)
+        
+        print("Answer： ")
 
         for i in array:
             print(" ".join([str(x) for x in i]))
