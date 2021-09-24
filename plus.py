@@ -7,7 +7,7 @@ print("加法")
 
 print("------------------")
 
-print("請輸入矩陣的行與列")
+print("請輸入矩陣的列與行")
 row, column = map(int, stdin.readline().split())
 
 print("-----")
