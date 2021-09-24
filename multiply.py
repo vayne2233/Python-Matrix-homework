@@ -8,9 +8,9 @@ print("乘法")
 
 print("-------------------")
 
-print("第一個矩陣的行與列: ")
+print("第一個矩陣的列與行: ")
 row1, column1 = map(int, stdin.readline().split())
-print('第二個矩陣的行與列: ')
+print('第二個矩陣的列與行: ')
 row2, column2 = map(int, stdin.readline().split())
 
 if column1 != row2:
@@ -23,9 +23,9 @@ else:
             array3[i].append(0)
 
     while column1 != row2:
-        print("第一個矩陣的行與列: ")
+        print("第一個矩陣的列與行: ")
         row1, column1 = map(int, stdin.readline().split())
-        print('第二個矩陣的行與列: ')
+        print('第二個矩陣的列與行: ')
         row2, column2 = map(int, stdin.readline().split())
 
     print("請輸入第一個矩陣")
